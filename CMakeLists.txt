@@ -1,0 +1,16 @@
+cmake_minimum_required(VERSION 3.22)
+project(HW2 C)
+
+set(CMAKE_C_STANDARD 11)
+
+add_executable(HW2_Grade4 Grade4/main.c)
+add_executable(HW2_Grade5 Grade5/main.c)
+add_executable(HW2_Grade6 Grade6/main.c)
+add_executable(HW2_Grade7_Hotel Grade7/hotel.c)
+add_executable(HW2_Grade7_Client Grade7/client.c)
+add_executable(HW2_Grade8_Hotel Grade8/hotel.c)
+add_executable(HW2_Grade8_Client Grade8/client.c)
+add_executable(HW2_Grade9_Hotel Grade9/hotel.c)
+add_executable(HW2_Grade9_Client Grade9/client.c)
+add_executable(HW2_Grade10_Hotel Grade10/hotel.c)
+add_executable(HW2_Grade10_Client Grade10/client.c)
